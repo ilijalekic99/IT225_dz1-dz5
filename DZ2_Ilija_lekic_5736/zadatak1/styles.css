@@ -1,0 +1,28 @@
+body {
+  background-color: #000; /* Assuming a black background as shown in the image */
+  color: #fff; /* White text color for contrast */
+}
+
+header {
+  background: #333; /* A darker background for the header */
+  padding: 20px 0
+;
+}
+
+nav {
+background: #444; /* A slightly different dark background for the nav */
+padding: 10px 0;
+}
+
+nav .nav-link {
+color: #fff; /* White color for the navigation links */
+}
+
+main {
+padding: 50px 0; /* Ample space above and below the main content */
+}
+
+footer {
+background: #333; /* Same as the header for consistency */
+padding: 10px 0;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Homework Assignment</title>
+<style>
+    /* Basic reset for margins and paddings */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    header, footer, nav, section, article, aside {
+        border: 1px solid #000;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    header {
+        background-color: #ffcccc;
+        text-align: center;
+    }
+
+    nav {
+        background-color: #ccffcc;
+        margin-bottom: 0;
+    }
+
+    nav ul {
+        list-style-type: none;
+    }
+
+    nav ul li {
+        display: inline;
+        margin-right: 10px;
+    }
+
+    nav a {
+        text-decoration: none;
+    }
+
+    section {
+        background-color: #ccccff;
+        float: left;
+        width: calc(60% - 40px); /* Accounting for padding and margin */
+    }
+
+    article {
+        background-color: #ffffcc;
+    }
+
+    aside {
+        background-color: #ccffff;
+        float: right;
+        width: calc(30% - 40px); /* Accounting for padding and margin */
+    }
+
+    footer {
+        background-color: #cccccc;
+        text-align: center;
+        clear: both; /* This will clear the float from section and aside */
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Website Title</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+<section>
+    <h2>Main Content</h2>
+    <article>
+        <h3>Article Heading</h3>
+        <p>This is the main content area for the article. Place your text here.</p>
+    </article>
+</section>
+
+<aside>
+    <h3>Related Information</h3>
+    <p>This section could contain related links or advertisements.</p>
+</aside>
+
+<footer>
+    <p>&copy; 2024 My Website</p>
+</footer>
+
+</body>
+</html>

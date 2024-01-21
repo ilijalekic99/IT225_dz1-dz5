@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Homework Assignment - Basic Layout</title>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    header {
+        background: #eaeaea;
+        padding: 10px;
+        text-align: center;
+    }
+    .body {
+        flex: 1;
+        display: flex;
+    }
+    nav {
+        background: #dddddd;
+        width: 200px; /* or whatever width you like */
+        padding: 10px;
+    }
+    .content {
+        flex: 1;
+        padding: 10px;
+    }
+    footer {
+        background: #eaeaea;
+        padding: 10px;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <header>Header</header>
+    <div class="body">
+        <nav>Menu</nav>
+        <div class="content">Content</div>
+    </div>
+    <footer>Footer</footer>
+</div>
+
+</body>
+</html>

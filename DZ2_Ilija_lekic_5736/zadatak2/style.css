@@ -1,0 +1,32 @@
+body {
+  background-color: #f8f9fa; /* Light grey background */
+}
+
+.container {
+  max-width: 960px; /* Set maximum container width */
+}
+
+/* Customize the card headers */
+.card-header {
+  background-color: #fff;
+  border-bottom: 1px solid #eaecef;
+}
+
+/* Customize the card pricing */
+.pricing-card-title {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+/* Customize the button styling */
+.btn-outline-primary {
+  color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
